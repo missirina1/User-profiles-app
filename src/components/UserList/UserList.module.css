@@ -1,0 +1,55 @@
+.userList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  gap: 1.25rem;
+  row-gap: 4.375rem;
+  padding: 1.25rem;
+  margin-bottom: 3.125rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 3.125rem;
+  justify-content: space-between;
+}
+
+.filters {
+  display: flex;
+  gap: 0.625rem;
+  margin: 0 1.25rem 0;
+}
+
+.filters button {
+  padding: 0.5rem 1rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #f2f2f2;
+}
+
+.filters .active {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.newUser button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-right: 1.25rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
+
+.newUser button:hover {
+  background-color: #f2f2f2;
+}

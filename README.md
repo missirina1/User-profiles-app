@@ -44,7 +44,7 @@
 1. Клонируй репозиторий:
 
 ```
-git clone https://github.com/missirina1/user-profiles-app.git
+git clone https://github.com/missirina1/User-profiles-app.git
 cd user-profiles-app
 ```
 
